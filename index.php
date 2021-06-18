@@ -28,6 +28,6 @@
 
     <a href="criacao/insercao.php">Inserir</a> Dados na Tabela
     <br>
-    <a href="consulta.php">Consultar</a> Tabela
+    <a href="verificar.php">verificar</a> Tabela
 </body>
 </html>
