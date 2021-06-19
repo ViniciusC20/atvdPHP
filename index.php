@@ -18,9 +18,9 @@
         $conn = new PDO("mysql:host=$servername;dbname=$dbname;charset=utf8", $username, $password);
         // Modo de erro na exceção
         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-        echo "Banco de Dados Conectado com Sucesso!!!";
+        echo "Parabens Banco de Dados Conectado!!";
         } catch(PDOException $e) {
-        echo "Falha na Conexão do Banco de Dados - ERRO: " . $e->getMessage();
+        echo "Falha na Conexão - ERRO: " . $e->getMessage();
         }
     ?>
 
