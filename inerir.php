@@ -14,9 +14,9 @@
         $dbname = "" ;
 
         tente {
-        $conn = new  PDO ( "mysql: host = $ servername; dbname = $ dbname; charset = utf8" , $ username , $ password );
+        $conn = new  PDO ( "mysql: host = $ servername; dbname = $ dbname; charset = utf8" , $username , $password );
         $conn -> setAttribute ( PDO :: ATTR_ERRMODE , PDO :: ERRMODE_EXCEPTION );
-        $sql = "INSERT INTO dadosescola (Aluno, Disciplina, Nota_I, Nota_II)
+        $sql = "INSERT INTO dadosescolares (Aluno, Disciplina, Nota_I, Nota_II)
         VALORES ('Viniciu', 'IHC', '9', '10') " ;
         $conn -> exec ( $sql );
         echo  "Novo Cadastro Realizado com Sucesso !!!" ;
@@ -26,5 +26,5 @@
 
         $conn = null ;
     ?>
-</ body >
-</ html >
+</body >
+</html >
