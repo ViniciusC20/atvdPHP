@@ -12,22 +12,17 @@
         echo "<tr><th>Id</th><th>Aluno</th><th>Disciplina</th><th>Nota I</th><th>Nota II</th></tr>";
         class TableRows extends RecursiveIteratorIterator {
         function __construct($it) {
-            parent::__construct($it, self::LEAVES_ONLY);
+        parent::__construct($it, self::LEAVES_ONLY);
     }
-
-        function current() {
+    function current() {
             return "<td style='width:150px;border:1px solid black;'>" . parent::current(). "</td>";
     }
-
-        function beginChildren() {
+    function beginChildren() {
             echo "<tr>";
     }
-
-        function endChildren() {
+    function endChildren() {
             echo "</tr>" . "\n";
-    }
-}
-
+}}
         $servername = "";
         $username = "";
         $password = "";
