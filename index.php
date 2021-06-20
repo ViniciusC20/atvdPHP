@@ -21,7 +21,7 @@
         }
     ?>
     <br> <br>
-    <a href="criacao/insercao.php">Inserir</a> dados da Tabela
+    <a href="criacao/inerir.php">Inserir</a> dados da Tabela
     <br> <br>
     <a href="verificar.php">verificar</a> a tabela
 </body>
