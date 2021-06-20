@@ -20,10 +20,9 @@
         echo "Falha na Conexão - ERRO: " . $a->getMessage();
         }
     ?>
-
-    <br>
+    <br> <br>
     <a href="criacao/insercao.php">Inserir</a> Dados na Tabela
-    <br>
+    <br> <br>
     <a href="verificar.php">verificar</a> Tabela
 </body>
 </html>
