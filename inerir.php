@@ -19,7 +19,7 @@
         $sql = "INSERT INTO dadosescolares (Aluno, Disciplina, Nota_I, Nota_II)
         VALORES ('Viniciu', 'IHC', '9', '10') " ;
         $conn -> exec ( $sql );
-        echo  "Novo Cadastro Realizado com Sucesso !!!" ;
+        echo  "Parabén Novo Cadastro Realizado!!" ;
         } catch ( PDOException  $e ) {
         echo  $sql . "<br>" . $e -> getMessage ();
         }
