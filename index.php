@@ -9,23 +9,19 @@
 <body>
     <h1>Primeira Atividade</h1>
     <?php
-        $servername = "bmlx3df4ma7r1yh4.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-        $username = "vkq7duqk43riyga7";
-        $password = "x45hrl24syx3vm75";
-        $dbname = "tillepja9tm4a3ce";
+        $servername = ""; $username = "";
+        $password = ""; $dbname = "";
 
         try {
         $conn = new PDO("mysql:host=$servername;dbname=$dbname;charset=utf8", $username, $password);
-        // Modo de erro na exceção
         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         echo "Parabens Banco de Dados Conectado!!";
-        } catch(PDOException $e) {
-        echo "Falha na Conexão - ERRO: " . $e->getMessage();
+        } catch(PDOException $a) {
+        echo "Falha na Conexão - ERRO: " . $a->getMessage();
         }
     ?>
 
     <br>
-
     <a href="criacao/insercao.php">Inserir</a> Dados na Tabela
     <br>
     <a href="verificar.php">verificar</a> Tabela
