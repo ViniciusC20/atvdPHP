@@ -34,8 +34,8 @@
         foreach(new TableRows(new RecursiveArrayIterator($stmt->fetchAll())) as $k=>$v) {
             echo $v;
     }
-        } catch(PDOException $e) {
-        echo "Error: " . $e->getMessage();
+        } catch(PDOException $a) {
+        echo "Error: " . $a->getMessage();
     }
         $conn = null;
         echo "</table>";
