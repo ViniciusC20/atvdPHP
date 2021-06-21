@@ -16,8 +16,8 @@
         $conn = new PDO("mysql:host=$servername;dbname=$dbname;charset=utf8", $username, $password);
         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         echo "Parabens Banco de Dados Conectado!!";
-        } catch(PDOException $a) {
-        echo " ERRO, na Conexão: " . $a->getMessage();
+        } catch(PDOException $v) {
+        echo " ERRO, na Conexão: " . $v->getMessage();
         }
     ?>
     <br> <br>

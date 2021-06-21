@@ -20,8 +20,8 @@
         VALORES ('Viniciu', 'IHC', '9', '10') " ;
         $conn -> exec ( $sql );
         echo  "Parabén Novo Cadastro Realizado!!" ;
-        } catch ( PDOException  $a ) {
-        echo  $sql . "<br>" . $a -> getMessage ();
+        } catch ( PDOException  $v) {
+        echo  $sql . "<br>" . $v -> getMessage ();
         }
         $conn = null ;
     ?>
