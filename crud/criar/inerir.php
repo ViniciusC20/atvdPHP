@@ -6,12 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inserir</title>
 </head>
-<corpo>
+    <body>
     <?php
-        $servername = "" ;
-        $sername = "" ;
-        $password = "" ;
-        $dbname = "" ;
+        $servername = "" ;$sername = "" ;
+        $password = "" ; $dbname = "" ;
 
         tente {
         $conn = new  PDO ( "mysql: host = $ servername; dbname = $ dbname; charset = utf8" , $username , $password );
