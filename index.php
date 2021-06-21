@@ -17,7 +17,7 @@
         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         echo "Parabens Banco de Dados Conectado!!";
         } catch(PDOException $a) {
-        echo " ERRO, Falha na Conexão: " . $a->getMessage();
+        echo " ERRO, na Conexão: " . $a->getMessage();
         }
     ?>
     <br> <br>
