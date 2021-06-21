@@ -23,6 +23,6 @@
     <br> <br>
     <a href="criacao/inerir.php">Inserir</a> dados da Tabela
     <br> <br>
-    <a href="verificar.php">verificar</a> a tabela
+    <a href="verificar.php">verificar</a>tabela
 </body>
 </html>
