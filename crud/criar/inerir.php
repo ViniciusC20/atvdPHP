@@ -14,10 +14,10 @@
         tente {
         $conn = new  PDO ( "mysql: host = $ servername; dbname = $ dbname; charset = utf8" , $username , $password );
         $conn -> setAttribute ( PDO :: ATTR_ERRMODE , PDO :: ERRMODE_EXCEPTION );
-        $sql = "INSERT INTO dadosescolares (Aluno, Disciplina, Nota_I, Nota_II)
-        VALORES ('Viniciu', 'IHC', '9', '10') " ;
+        $sql = "INSERT INTO dadosescolares (Aluno, Disciplina, nota1, nota2)
+        VALORES ('Vinicius', 'IHC', '9', '10') " ;
         $conn -> exec ( $sql );
-        echo  "Parabén Novo Cadastro Realizado!!" ;
+        echo  "Parabéns Novo Cadastro Realizado!!" ;
         } catch ( PDOException  $v) {
         echo  $sql . "<br>" . $v -> getMessage ();
         }
